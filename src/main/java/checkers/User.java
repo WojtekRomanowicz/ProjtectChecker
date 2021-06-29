@@ -1,0 +1,19 @@
+package checkers;
+
+public class User implements Player {
+    String name;
+
+    public User(String name) {
+        this.name = name;
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public void makeMove(){
+        Piece piece;
+
+
+    }
+}
